@@ -1,0 +1,104 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: #f3452e;
+    color: #fff;
+
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#navbar li{
+    display: inline;
+    box-sizing: border-box;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+}
+
+#navbar a:hover{
+    color: #f3452e;
+}
+
+#showcase{
+    background-image: url(image/Peak.jpg);
+    border-bottom: 5px solid #333;
+    background-position: center right;
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 45%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width:500px;
+    /* border: 1px solid #333; */
+    /* background: #333; */
+    color: #fff;
+    padding: 60px 30px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+/* @media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+} */
